@@ -95,6 +95,11 @@
 .collection {
   /* overflow-y:auto; */
   height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
 .collection-cart {
   width: 400px;
@@ -138,11 +143,24 @@
   bottom: 0;
   left: 70px;
 }
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
   .collection {
     overflow-y: auto;
     gap: 10px;
     
   }
+}
+
+@media screen and (max-width: 992px) {
+  .collection {
+    overflow-y: auto;
+    gap: 10px;
+    margin-top: 2px;
+  }
+}
+
+/* beatsellers-products */
+.titel-beatsellers-products{
+  font-size: 62px;
+  font-weight: bold;
 }
