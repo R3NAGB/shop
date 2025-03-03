@@ -147,7 +147,6 @@
   .collection {
     overflow-y: auto;
     gap: 10px;
-    
   }
 }
 
@@ -160,7 +159,36 @@
 }
 
 /* beatsellers-products */
-.titel-beatsellers-products{
-  font-size: 62px;
+.titel-beatsellers-products {
+  font-size: 50px;
   font-weight: bold;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .titel-beatsellers-products {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .titel-beatsellers-products {
+    font-size: 40px;
+  }
+  .blen-beatsellers-products {
+    font-size: 18px;
+    /* gap: 10px; */
+    overflow-x: auto;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .titel-beatsellers-products {
+    font-size: 35px;
+  }
+  .blen-beatsellers-products {
+    font-size: 15px;
+    /* gap: 10px; */
+    overflow-x: auto;
+    padding: 0;
+  }
 }
