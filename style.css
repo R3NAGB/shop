@@ -1,5 +1,8 @@
 * {
   font-family: "Poppins", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .navbar {
   background-color: aliceblue;
@@ -164,11 +167,10 @@
   font-weight: bold;
   gap: 2rem;
 }
-.image-contain{
+.image-contain {
   position: relative;
-
 }
-.New{
+.New {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -176,7 +178,7 @@
   color: white;
   padding: 5px;
 }
-.product-icons{
+.product-icons {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -186,7 +188,7 @@
   list-style-type: none;
   /* margin-right: 10px; */
 }
-.product-icons li{
+.product-icons li {
   display: flex;
   flex-direction: column;
   margin: 4px;
@@ -197,8 +199,8 @@
   cursor: pointer;
   transition: all 0.9s ease-out;
 }
-.product-icons li:hover  {
- background-color: tomato;
+.product-icons li:hover {
+  background-color: tomato;
 }
 .card:hover li {
   opacity: 1;
@@ -229,4 +231,36 @@
     overflow-x: auto;
     padding: 0;
   }
+}
+
+/* categori */
+.card-image1,
+.card-image2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+}
+.card-image1 {
+  background-image: url("/images/cta-1.jpg");
+}
+
+.card-image2 {
+  background-image: url("/images/cta-2.jpg");
+}
+.btn-shop {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 4px;
+  transition: all ease-in-out 0.5;
+}
+.btn-shop:hover {
+  border-bottom: 2px solid white;
+  color: aliceblue;
+}
+
+/* server */
+.server img {
+  width: 60px;
+  padding: 4px;
 }
