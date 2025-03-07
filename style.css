@@ -258,9 +258,47 @@
   border-bottom: 2px solid white;
   color: aliceblue;
 }
+/*  */
 
-/* server */
+.trend-box{
+  background-image: url('/images/special-banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  /* width: 300px; */
+  position: relative;
+}
+.title-Trend{
+  position: absolute;
+  top: 20px;
+  left: 54px;
+  /* transform: translate(-50%, -50%); */
+}
+.btn-explore-all{
+  position: absolute;
+  bottom:20px;
+  left: 50px;
+  /* transform: translate(-50%, -50%); */
+}
+
+/* service */
 .server img {
   width: 60px;
   padding: 4px;
 }
+
+
+.image {
+  width: 200px;
+  height: 150px;
+}
+@media screen and (max-width: 1100px) {
+  .images {
+    overflow-x: auto;
+  }
+}
+.conncet-list i{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+} 
