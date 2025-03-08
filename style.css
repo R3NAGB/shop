@@ -214,6 +214,11 @@
   .titel-beatsellers-products {
     font-size: 40px;
   }
+  .product-icons li{
+    font-size: 10px;
+    padding: 0;
+    
+  }
   .blen-beatsellers-products {
     font-size: 18px;
     /* gap: 10px; */
@@ -231,6 +236,7 @@
     overflow-x: auto;
     padding: 0;
   }
+ 
 }
 
 /* categori */
