@@ -109,7 +109,7 @@
   height: 350px;
 }
 .images-collection {
-  background-image: url("/images/collection-1.jpg");
+  background-image: url("./images/collection-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,7 +118,7 @@
   position: relative;
 }
 .images-collection-2 {
-  background-image: url("/images/collection-2.jpg");
+  background-image: url("./images/collection-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -127,7 +127,7 @@
   position: relative;
 }
 .images-collection-3 {
-  background-image: url("/images/collection-3.jpg");
+  background-image: url("./images/collection-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -248,11 +248,11 @@
   height: 280px;
 }
 .card-image1 {
-  background-image: url("/images/cta-1.jpg");
+  background-image: url("./images/cta-1.jpg");
 }
 
 .card-image2 {
-  background-image: url("/images/cta-2.jpg");
+  background-image: url("./images/cta-2.jpg");
 }
 .btn-shop {
   text-decoration: none;
@@ -267,7 +267,7 @@
 /*  */
 
 .trend-box{
-  background-image: url('/images/special-banner.jpg');
+  background-image: url('./images/special-banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
